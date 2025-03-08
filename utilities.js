@@ -27,3 +27,16 @@ function wholeDonateNow(donationInputId){
     const updatedBalance = balance - donationAmount;
     balanceUpdate(updatedBalance);
 }
+
+// alert
+function showAlert(){
+    const alert = document.querySelector("#alert");
+        const closeBtn = document.getElementById("closeBtn");
+        alert.showModal();
+        alert.classList.add("backdrop:bg-[rgba(0,0,0,0.5)]","backdrop:backdrop-blur-xs")
+        closeBtn.addEventListener("click",function(){
+            alert.close();
+            
+
+        })
+}

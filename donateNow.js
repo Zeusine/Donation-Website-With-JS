@@ -10,6 +10,10 @@ document.getElementById("button-card1").addEventListener("click",function(){
     </p>
     `
     document.getElementById("history-section").appendChild(div)
+    // alert
+    showAlert();
+    
+
 
 })
 
@@ -27,7 +31,10 @@ document.getElementById("button-card2").addEventListener("click",function(){
     </p>
     `
     document.getElementById("history-section").appendChild(div)
+    showAlert();
 })
+
+
 document.getElementById("button-card3").addEventListener("click",function(){
     wholeDonateNow("donation-amount-input3")
     const div = document.createElement("div");
@@ -41,4 +48,10 @@ document.getElementById("button-card3").addEventListener("click",function(){
     </p>
     `
     document.getElementById("history-section").appendChild(div)
+
+
+    // alert
+    showAlert();
+        
+
 })
